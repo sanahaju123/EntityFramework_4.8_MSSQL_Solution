@@ -1,4 +1,4 @@
-﻿namespace ExpenseTrackerApp.Migrations
+﻿namespace ContactManagementApp.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

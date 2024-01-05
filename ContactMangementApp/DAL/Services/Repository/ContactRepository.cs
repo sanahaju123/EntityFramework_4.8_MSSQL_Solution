@@ -16,13 +16,13 @@ namespace ContactManagementApp.DAL.Services.Repository
         }
 
 
-        public async Task<Contact> CreateContact(Contact expense)
+        public async Task<Contact> CreateContact(Contact contact)
         {
             try
             {
-                var result =  _dbContext.Contacts.Add(expense);
+                var result =  _dbContext.Contacts.Add(contact);
                 await _dbContext.SaveChangesAsync();
-                return expense;
+                return contact;
             }
             catch (Exception ex)
             {

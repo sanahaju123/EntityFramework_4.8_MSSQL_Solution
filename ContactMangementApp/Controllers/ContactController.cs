@@ -55,8 +55,8 @@ namespace ContactManagementApp.Controllers
         [Route("api/Contact/GetContactById")]
         public async Task<IHttpActionResult> GetContactById(long id)
         {
-            var expense = await _service.GetContactById(id);
-            return Ok(expense);
+            var contact = await _service.GetContactById(id);
+            return Ok(contact);
         }
 
 

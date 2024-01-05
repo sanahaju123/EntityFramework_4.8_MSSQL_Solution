@@ -10,7 +10,7 @@ namespace ContactManagementApp.DAL.Interrfaces
     public interface IContactService
     {
         List<Contact> GetAllContacts();
-        Task<Contact> CreateContact(Contact expense);
+        Task<Contact> CreateContact(Contact contact);
         Task<Contact> GetContactById(long id);
         Task<bool> DeleteContactById(long id);
         Task<Contact> UpdateContact(Contact model);

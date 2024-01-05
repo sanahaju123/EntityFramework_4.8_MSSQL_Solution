@@ -18,9 +18,9 @@ namespace ContactManagementApp.DAL.Services
             _repository = repository;
         }
 
-        public Task<Contact> CreateContact(Contact expense)
+        public Task<Contact> CreateContact(Contact contact)
         {
-            return _repository.CreateContact(expense);
+            return _repository.CreateContact(contact);
         }
 
         public Task<bool> DeleteContactById(long id)

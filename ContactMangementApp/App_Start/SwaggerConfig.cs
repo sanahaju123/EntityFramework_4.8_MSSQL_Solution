@@ -5,7 +5,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Http;
 
-namespace ExpenseTrackerApp.App_Start
+namespace ContactManagementApp.App_Start
 {
     public class SwaggerConfig
     {
